@@ -79,6 +79,12 @@ msgid "Apply"
 msgstr ""
 
 #. module: pos_multiple_control
+#: code:addons/pos_multiple_control/models/account_bank_statement.py:118
+#, python-format
+msgid "Automatic solve (%s)"
+msgstr ""
+
+#. module: pos_multiple_control
 #: model:ir.model.fields,field_description:pos_multiple_control.field_pos_config__autosolve_limit
 msgid "Autosolve limit"
 msgstr ""
@@ -416,7 +422,7 @@ msgid "Update Balances"
 msgstr ""
 
 #. module: pos_multiple_control
-#: code:addons/pos_multiple_control/models/account_bank_statement.py:123
+#: code:addons/pos_multiple_control/models/account_bank_statement.py:124
 #, python-format
 msgid "We can't autosolve this difference. \n"
 "You need to configure the Point Of Sale config and choose a pos move reason for autosolving this difference."
