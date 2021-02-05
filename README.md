@@ -32,12 +32,13 @@ addon | version | summary
 [pos_meal_voucher](pos_meal_voucher/) | 12.0.1.0.2 | Handle meal vouchers in Point of Sale with eligible amount and max amount
 [pos_multi_ean](pos_multi_ean/) | 12.0.1.0.1 | Search products by multiple EAN
 [pos_multiple_control](pos_multiple_control/) | 12.0.1.0.2 | Allow user to control each statement and add extra checks
+[pos_order_line_note](pos_order_line_note/) | 12.0.1.0.2 | Store Order Line Note field in Database
 [pos_order_mgmt](pos_order_mgmt/) | 12.0.1.1.3 | Manage old POS Orders from the frontend
 [pos_order_remove_line](pos_order_remove_line/) | 12.0.1.0.0 | Add button to remove POS order line.
 [pos_order_return](pos_order_return/) | 12.0.1.0.3 | Point of Sale Order Return
 [pos_order_return_traceability](pos_order_return_traceability/) | 12.0.1.0.0 | Adds full return traceability to POS frontend
 [pos_order_to_sale_order](pos_order_to_sale_order/) | 12.0.1.0.2 | PoS Order To Sale Order
-[pos_partner_firstname](pos_partner_firstname/) | 12.0.1.1.0 | POS Support of partner firstname
+[pos_partner_firstname](pos_partner_firstname/) | 12.0.1.1.1 | POS Support of partner firstname
 [pos_payment_change](pos_payment_change/) | 12.0.1.0.2 | Allow cashier to change order payments, as long as the session is not closed.
 [pos_payment_terminal](pos_payment_terminal/) | 12.0.0.1.3 | Manage Payment Terminal device from POS front end
 [pos_picking_delayed](pos_picking_delayed/) | 12.0.1.0.3 | Delay the creation of the picking when PoS order is created
@@ -48,7 +49,7 @@ addon | version | summary
 [pos_product_sort](pos_product_sort/) | 12.0.1.0.1 | sort the products by name in the point of sale instead of sorting them by the sequence field.
 [pos_quick_logout](pos_quick_logout/) | 12.0.1.0.0 | Allow PoS user to logout quickly after user changed
 [pos_remove_pos_category](pos_remove_pos_category/) | 12.0.2.0.0 | POS Remove POS Category
-[pos_report_order_payment](pos_report_order_payment/) | 12.0.1.0.0 | Analyze point of sale payments
+[pos_report_order_payment](pos_report_order_payment/) | 12.0.1.0.1 | Analyze point of sale payments
 [pos_report_session_summary](pos_report_session_summary/) | 12.0.1.0.0 | Adds a Session Summary PDF report on the POS session
 [pos_require_product_quantity](pos_require_product_quantity/) | 12.0.0.1.1 | A popup is shown if product quantity is set to 0 for one or more order lines when clicking on "Payment" button.
 [pos_reset_search](pos_reset_search/) | 12.0.1.0.0 | Point of Sale - Clear product search when user clicks on a product.
@@ -62,7 +63,7 @@ addon | version | summary
 [pos_ticket_salesman_firstname](pos_ticket_salesman_firstname/) | 12.0.1.0.0 | Pos Ticket Salesman Firstname
 [pos_ticket_without_price](pos_ticket_without_price/) | 12.0.1.0.0 | Adds receipt ticket without price or taxes
 [pos_to_weight_by_product_uom](pos_to_weight_by_product_uom/) | 12.0.1.0.0 | Make 'To Weight' default value depending on product UoM settings
-[pos_user_restriction](pos_user_restriction/) | 12.0.1.0.1 | Restrict some users to see and use only certain points of sale
+[pos_user_restriction](pos_user_restriction/) | 12.0.1.0.2 | Restrict some users to see and use only certain points of sale
 
 
 Unported addons
