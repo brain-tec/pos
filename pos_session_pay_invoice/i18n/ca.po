@@ -1,18 +1,15 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * pos_session_pay_invoice
+#	* pos_session_pay_invoice
 #
-# Translators:
-# enjolras <yo@miguelrevilla.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-01 02:01+0000\n"
 "PO-Revision-Date: 2021-03-26 17:46+0000\n"
 "Last-Translator: Daniel Martinez Vila <daniel.martinez@qubiq.es>\n"
-"Language-Team: Spanish (https://www.transifex.com/oca/teams/23907/es/)\n"
-"Language: es\n"
+"Language-Team: none\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -21,20 +18,18 @@ msgstr ""
 
 #. module: pos_session_pay_invoice
 #: model:ir.ui.view,arch_db:pos_session_pay_invoice.view_pos_session_form
-msgid ""
-"<span class=\"o_stat_text\">Collect Payment</span>\n"
+msgid "<span class=\"o_stat_text\">Collect Payment</span>\n"
 "                        <span class=\"o_stat_text\">from Invoice</span>"
 msgstr ""
-"<span class = \"o_stat_text\"> Cobrar pago </span>\n"
-"                         <span class = \"o_stat_text\"> de Factura </span>"
+"<span class = \"o_stat_text\"> Cobrar pagaments </span>\n"
+"                         <span class = \"o_stat_text\"> de la factura </span>"
 
 #. module: pos_session_pay_invoice
 #: model:ir.ui.view,arch_db:pos_session_pay_invoice.view_pos_session_form
-msgid ""
-"<span class=\"o_stat_text\">Pay</span>\n"
+msgid "<span class=\"o_stat_text\">Pay</span>\n"
 "                        <span class=\"o_stat_text\">Invoice</span>"
 msgstr ""
-"<span class = \"o_stat_text\"> Pagar </span>\n"
+"<span class = \"o_stat_text\"> Paga </span>\n"
 "                         <span class = \"o_stat_text\"> Factura </span>"
 
 #. module: pos_session_pay_invoice
@@ -42,24 +37,24 @@ msgstr ""
 #: code:addons/pos_session_pay_invoice/wizard/cash_invoice_out.py:50
 #, python-format
 msgid "Bank Statement was not found"
-msgstr "No se ha encontrado extracto bancario"
+msgstr "No s'ha trobat l'extracte bancari"
 
 #. module: pos_session_pay_invoice
 #: model:ir.actions.act_window,name:pos_session_pay_invoice.action_pos_invoice_in
 #: model:ir.actions.act_window,name:pos_session_pay_invoice.action_pos_invoice_out
 msgid "Pay invoice"
-msgstr "Factura de pago"
+msgstr "Pagar factura"
 
 #. module: pos_session_pay_invoice
 #: model:ir.ui.view,arch_db:pos_session_pay_invoice.view_pos_config_kanban
 msgid "Summary"
-msgstr "Resumen"
+msgstr "Resum"
 
 #. module: pos_session_pay_invoice
 #: code:addons/pos_session_pay_invoice/wizard/cash_invoice_in.py:24
 #, python-format
 msgid "There is no cash register for this Pos session"
-msgstr "No hay caja registradora para esta sesión de Pos"
+msgstr "No hi ha cap caixa registradora per a aquesta sessió de Pos"
 
 #. module: pos_session_pay_invoice
 #: model:ir.model,name:pos_session_pay_invoice.model_cash_invoice_in
