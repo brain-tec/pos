@@ -1,16 +1,15 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* pos_product_template
+#	* pos_product_template
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 8.0\n"
+"Project-Id-Version: Odoo Server 9.0c\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-18 12:01+0000\n"
 "PO-Revision-Date: 2021-03-29 09:46+0000\n"
 "Last-Translator: Daniel Martinez Vila <daniel.martinez@qubiq.es>\n"
-"Language-Team: \n"
-"Language: es\n"
+"Language-Team: none\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -27,14 +26,14 @@ msgstr "2.399GHz"
 #: code:addons/pos_product_template/static/src/xml/ppt.xml:31
 #, python-format
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Cancel·lar"
 
 #. module: pos_product_template
 #. openerp-web
 #: code:addons/pos_product_template/static/src/xml/ppt.xml:29
 #, python-format
 msgid "Variant Selection of"
-msgstr "Seleccina una variante de"
+msgstr "Selecció de variants de"
 
 #. module: pos_product_template
 #. openerp-web
@@ -42,4 +41,4 @@ msgstr "Seleccina una variante de"
 #: code:addons/pos_product_template/static/src/xml/ppt.xml:95
 #, python-format
 msgid "Variants"
-msgstr "Variantes"
+msgstr "Variants"
