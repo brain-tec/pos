@@ -35,6 +35,10 @@ better control at the closing of the session.
 
 .. figure:: https://raw.githubusercontent.com/OCA/pos/12.0/pos_multiple_control/static/description/change_starting_balance.gif
 
+The cashbox lines are recorded and can be found later.
+
+.. figure:: https://raw.githubusercontent.com/OCA/pos/12.0/pos_multiple_control/static/description/end_session_set_balance.gif
+
 * Quickly solve differences (we can set an absolute limit),
   thanks to pos_move_reason
 
@@ -72,6 +76,10 @@ To configure this module, you need to:
 * Unchecked journal will be in grey
 
 .. figure:: https://raw.githubusercontent.com/OCA/pos/12.0/pos_multiple_control/static/description/account_journal_config.png
+
+* Configure a Cashbox default if you want Odoo give by default lines when changing balance
+
+.. figure:: https://raw.githubusercontent.com/OCA/pos/12.0/pos_multiple_control/static/description/configure_cashbox_in_journal.gif
 
 **Configure your POS configuration** 
 
