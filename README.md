@@ -26,10 +26,10 @@ addon | version | summary
 [pos_fixed_discount](pos_fixed_discount/) | 12.0.1.0.1 | Allow to apply discounts with fixed amount
 [pos_hide_banknote_button](pos_hide_banknote_button/) | 12.0.1.0.0 | Hide useless Banknote buttons in the PoS (+10, +20, +50)
 [pos_invoice_send_mail](pos_invoice_send_mail/) | 12.0.1.0.0 | Send invoices by email from the POS
-[pos_invoicing](pos_invoicing/) | 12.0.3.0.0 | Handle invoicing from Point Of Sale
+[pos_invoicing](pos_invoicing/) | 12.0.3.0.1 | Handle invoicing from Point Of Sale
 [pos_journal_image](pos_journal_image/) | 12.0.1.0.0 | Add images on Account Journals available in the PoS
 [pos_margin](pos_margin/) | 12.0.1.0.0 | Margin on PoS Order
-[pos_meal_voucher](pos_meal_voucher/) | 12.0.1.0.2 | Handle meal vouchers in Point of Sale with eligible amount and max amount
+[pos_meal_voucher](pos_meal_voucher/) | 12.0.1.0.3 | Handle meal vouchers in Point of Sale with eligible amount and max amount
 [pos_multi_ean](pos_multi_ean/) | 12.0.1.0.1 | Search products by multiple EAN
 [pos_multiple_control](pos_multiple_control/) | 12.0.1.2.0 | Allow user to control each statement and add extra checks
 [pos_order_line_no_unlink](pos_order_line_no_unlink/) | 12.0.1.0.1 | Prevent to unlink Confirmed or Invoiced Order Lines
@@ -40,7 +40,7 @@ addon | version | summary
 [pos_order_return_traceability](pos_order_return_traceability/) | 12.0.1.0.0 | Adds full return traceability to POS frontend
 [pos_order_to_sale_order](pos_order_to_sale_order/) | 12.0.1.0.2 | PoS Order To Sale Order
 [pos_partner_firstname](pos_partner_firstname/) | 12.0.1.1.1 | POS Support of partner firstname
-[pos_payment_change](pos_payment_change/) | 12.0.1.0.3 | Allow cashier to change order payments, as long as the session is not closed.
+[pos_payment_change](pos_payment_change/) | 12.0.1.0.4 | Allow cashier to change order payments, as long as the session is not closed.
 [pos_payment_terminal](pos_payment_terminal/) | 12.0.0.1.3 | Manage Payment Terminal device from POS front end
 [pos_picking_delayed](pos_picking_delayed/) | 12.0.1.0.3 | Delay the creation of the picking when PoS order is created
 [pos_picking_load](pos_picking_load/) | 12.0.1.0.2 | Load and confirm stock pickings via Point Of Sale
