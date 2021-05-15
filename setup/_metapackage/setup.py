@@ -10,6 +10,7 @@ setuptools.setup(
     install_requires=[
         'odoo12-addon-pos_accented_search',
         'odoo12-addon-pos_access_right',
+        'odoo12-addon-pos_cash_control_multiple_config',
         'odoo12-addon-pos_cash_move_reason',
         'odoo12-addon-pos_customer_display',
         'odoo12-addon-pos_customer_required',
@@ -61,6 +62,7 @@ setuptools.setup(
         'odoo12-addon-pos_timeout',
         'odoo12-addon-pos_to_weight_by_product_uom',
         'odoo12-addon-pos_user_restriction',
+        'odoo12-addon-pos_warning_exiting',
     ],
     classifiers=[
         'Programming Language :: Python',
