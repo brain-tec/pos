@@ -33,10 +33,12 @@ addon | version | maintainers | summary
 [pos_payment_change](pos_payment_change/) | 14.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Allow cashier to change order payments, as long as the session is not closed.
 [pos_payment_terminal](pos_payment_terminal/) | 14.0.2.0.0 |  | Point of sale: support generic payment terminal
 [pos_product_sort](pos_product_sort/) | 14.0.1.0.0 |  | sort the products by name in the point of sale instead of sorting them by the sequence field.
+[pos_receipt_hide_price](pos_receipt_hide_price/) | 14.0.1.0.1 |  | Add button to remove price from receipt.
 [pos_require_product_quantity](pos_require_product_quantity/) | 14.0.1.0.0 |  | A popup is shown if product quantity is set to 0 for one or more order lines when clicking on "Payment" button.
 [pos_reset_search](pos_reset_search/) | 14.0.1.0.0 | [![fkawala](https://github.com/fkawala.png?size=30px)](https://github.com/fkawala) | Point of Sale - Clear product search when user clicks on a product.
 [pos_show_config_name](pos_show_config_name/) | 14.0.1.0.0 |  | Point of sale: show pos config name
 [pos_supplierinfo_search](pos_supplierinfo_search/) | 14.0.1.0.0 | [![eLBati](https://github.com/eLBati.png?size=30px)](https://github.com/eLBati) | Search products by supplier data
+[pos_ticket_without_price](pos_ticket_without_price/) | 14.0.1.0.0 |  | Adds receipt ticket without price or taxes
 [pos_timeout](pos_timeout/) | 14.0.1.0.0 |  | Set the timeout of the point of sale
 [pos_user_restriction](pos_user_restriction/) | 14.0.1.0.0 | [![eLBati](https://github.com/eLBati.png?size=30px)](https://github.com/eLBati) | Restrict some users to see and use only certain points of sale
 [pos_warning_exiting](pos_warning_exiting/) | 14.0.1.0.0 |  | Add warning at exiting the PoS front office UI if there are pending draft orders
