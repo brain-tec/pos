@@ -3,10 +3,10 @@
 {
     "name": "Point of Sale Fixed Discounts",
     "summary": "Allow to apply discounts with fixed amount",
-    "version": "12.0.1.0.1",
+    "version": "12.0.1.0.2",
     "development_status": "Beta",
     "category": "Point of Sale",
-    "website": "https://github.com/OCA/pos>",
+    "website": "https://github.com/OCA/pos",
     "author": "TAKOBI, Odoo Community Association (OCA)",
     "maintainers": ["eLBati"],
     "license": "LGPL-3",
