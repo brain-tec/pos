@@ -4,7 +4,7 @@
 
 {
     'name': 'POS Payment Terminal',
-    'version': '12.0.0.1.4',
+    'version': '12.0.0.1.5',
     'category': 'Point Of Sale',
     'summary': 'Manage Payment Terminal device from POS front end',
     'author': "Aurélien DUMAINE,GRAP,Akretion,"
@@ -16,7 +16,6 @@
         'views/account_journal.xml',
         'views/assets.xml',
         ],
-    'demo': ['demo/pos_config.xml'],
     'qweb': ['static/src/xml/pos_payment_terminal.xml'],
     'installable': True,
 }
