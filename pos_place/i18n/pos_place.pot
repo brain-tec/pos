@@ -50,6 +50,11 @@ msgid "ID"
 msgstr ""
 
 #. module: pos_place
+#: model:ir.model,name:pos_place.model_account_invoice
+msgid "Invoice"
+msgstr ""
+
+#. module: pos_place
 #: model:ir.model.fields,field_description:pos_place.field_pos_place____last_update
 msgid "Last Modified on"
 msgstr ""
@@ -78,6 +83,7 @@ msgstr ""
 #. module: pos_place
 #. openerp-web
 #: code:addons/pos_place/static/src/js/widget.js:41
+#: model:ir.model.fields,field_description:pos_place.field_account_invoice__place_id
 #: model:ir.model.fields,field_description:pos_place.field_pos_order__place_id
 #: model:ir.model.fields,field_description:pos_place.field_report_pos_order__place_id
 #, python-format

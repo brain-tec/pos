@@ -4,7 +4,7 @@
 {
     'name': 'Point of Sale - Places',
     'summary': "Define places on PoS orders",
-    'version': '12.0.1.0.2',
+    'version': '12.0.1.0.3',
     'category': 'Point of Sale',
     'author': 'GRAP,Odoo Community Association (OCA)',
     'maintainers': ['legalsylvain'],
@@ -19,6 +19,7 @@
         'security/res_groups.xml',
         'security/ir.model.access.csv',
         'views/templates.xml',
+        'views/view_account_invoice.xml',
         'views/view_pos_config.xml',
         'views/view_pos_place.xml',
         'views/view_pos_order.xml',
@@ -28,6 +29,7 @@
     ],
     'demo': [
         'demo/res_groups.xml',
+        'demo/pos_config.xml',
         'demo/pos_place.xml',
     ],
     'images': [
