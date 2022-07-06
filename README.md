@@ -21,7 +21,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[pos_access_right](pos_access_right/) | 14.0.1.0.1 |  | Point of Sale - Extra Access Right for certain actions
+[pos_access_right](pos_access_right/) | 14.0.1.0.2 |  | Point of Sale - Extra Access Right for certain actions
 [pos_backend_communication](pos_backend_communication/) | 14.0.1.0.1 | [![hparfr](https://github.com/hparfr.png?size=30px)](https://github.com/hparfr) | Communicate with odoo's backend from POS.
 [pos_cash_move_reason](pos_cash_move_reason/) | 14.0.1.0.2 |  | POS cash in-out reason
 [pos_default_partner](pos_default_partner/) | 14.0.1.0.0 |  | Add a default customer in pos order
@@ -40,6 +40,7 @@ addon | version | maintainers | summary
 [pos_payment_terminal](pos_payment_terminal/) | 14.0.2.1.0 |  | Point of sale: support generic payment terminal
 [pos_product_multi_barcode](pos_product_multi_barcode/) | 14.0.1.0.2 |  | Make product multi barcodes usable in the point of sale
 [pos_product_sort](pos_product_sort/) | 14.0.1.0.0 |  | sort the products by name in the point of sale instead of sorting them by the sequence field.
+[pos_product_template](pos_product_template/) | 14.0.1.0.0 |  | Manage Product Template in Front End Point Of Sale
 [pos_receipt_hide_price](pos_receipt_hide_price/) | 14.0.1.0.1 |  | Add button to remove price from receipt.
 [pos_report_session_summary](pos_report_session_summary/) | 14.0.1.0.2 |  | Adds a Session Summary PDF report on the POS session
 [pos_require_product_quantity](pos_require_product_quantity/) | 14.0.1.0.0 |  | A popup is shown if product quantity is set to 0 for one or more order lines when clicking on "Payment" button.
