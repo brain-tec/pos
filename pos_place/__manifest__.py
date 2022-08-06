@@ -4,11 +4,11 @@
 {
     'name': 'Point of Sale - Places',
     'summary': "Define places on PoS orders",
-    'version': '12.0.1.0.3',
+    'version': '12.0.1.0.4',
     'category': 'Point of Sale',
     'author': 'GRAP,Odoo Community Association (OCA)',
     'maintainers': ['legalsylvain'],
-    'website': 'http://www.github.com/OCA/pos',
+    'website': 'https://github.com/OCA/pos',
     'license': 'AGPL-3',
     'depends': [
         'point_of_sale',

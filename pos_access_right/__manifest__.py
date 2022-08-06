@@ -4,11 +4,11 @@
 
 {
     'name': 'Point of Sale - Extra Access Right',
-    'version': '12.0.1.0.1',
+    'version': '12.0.1.0.2',
     'category': 'Point Of Sale',
     'summary': 'Point of Sale - Extra Access Right for certain actions',
     'author': 'La Louve, GRAP, Odoo Community Association (OCA)',
-    'website': 'http://www.github.com/OCA/pos',
+    'website': 'https://github.com/OCA/pos',
     'license': 'AGPL-3',
     'depends': [
         'point_of_sale',

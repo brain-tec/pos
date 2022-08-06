@@ -4,10 +4,10 @@
 {
     'name': 'Point of Sale - Load Picking by Partner Name improvment',
     'summary': "Improve load of picking in PoS by partner name",
-    'version': '12.0.1.0.1',
+    'version': '12.0.1.0.2',
     'category': 'Point of Sale',
     'author': 'GRAP,Odoo Community Association (OCA)',
-    'website': 'http://www.github.com/OCA/pos',
+    'website': 'https://github.com/OCA/pos',
     'license': 'AGPL-3',
     'maintainers': ['legalsylvain'],
     'development_status': 'Beta',

@@ -5,11 +5,11 @@
     "name": "Point Of Sale - Meal Voucher",
     "summary": "Handle meal vouchers in Point of Sale"
     " with eligible amount and max amount",
-    "version": "12.0.1.0.6",
+    "version": "12.0.1.0.7",
     "category": "Point of Sale",
     "author": "GRAP, Odoo Community Association (OCA)",
     "maintainers": ["legalsylvain"],
-    "website": "http://www.github.com/OCA/pos",
+    "website": "https://github.com/OCA/pos",
     "license": "AGPL-3",
     "depends": [
         "point_of_sale",

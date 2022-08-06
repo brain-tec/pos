@@ -3,12 +3,12 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 {
     "name": "Point Of Sale - Change Payments",
-    "version": "12.0.1.1.0",
+    "version": "12.0.1.1.1",
     "summary": "Allow cashier to change order payments, as long as"
     " the session is not closed.",
     "category": "Point Of Sale",
     "author": "GRAP, Odoo Community Association (OCA)",
-    "website": "https://www.github.com/OCA/pos",
+    "website": "https://github.com/OCA/pos",
     "license": "AGPL-3",
     "depends": ["point_of_sale"],
     "maintainers": ["legalsylvain"],

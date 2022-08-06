@@ -4,11 +4,12 @@
 
 {
     'name': 'POS Payment Terminal',
-    'version': '12.0.0.1.5',
+    'version': '12.0.0.1.6',
     'category': 'Point Of Sale',
     'summary': 'Manage Payment Terminal device from POS front end',
     'author': "Aurélien DUMAINE,GRAP,Akretion,"
               "Odoo Community Association (OCA)",
+    'website': 'https://github.com/OCA/pos',
     'license': 'AGPL-3',
     'depends': ['point_of_sale'],
     'data': [
