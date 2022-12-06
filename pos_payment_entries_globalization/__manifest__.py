@@ -5,9 +5,9 @@
     'summary': """Globalize POS Payment""",
     'author': 'ACSONE SA/NV,'
               'Odoo Community Association (OCA)',
-    'website': "http://github.com/OCA/pos",
+    'website': "https://github.com/OCA/pos",
     'category': 'Point Of Sale',
-    'version': '11.0.1.0.0',
+    'version': '11.0.1.0.1',
     'license': 'AGPL-3',
     'depends': [
         'point_of_sale',

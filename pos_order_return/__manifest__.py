@@ -5,7 +5,7 @@
 
 {
     'name': 'Point of Sale Order Return',
-    'version': '11.0.1.0.0',
+    'version': '11.0.1.0.1',
     'category': 'Point Of Sale',
     'author': 'La Louve, '
               'GRAP, '
@@ -13,7 +13,7 @@
               'Lambda IS, '
               'Odoo Community Association (OCA)',
     'license': 'AGPL-3',
-    'website': 'https://www.github.com/OCA/pos',
+    'website': 'https://github.com/OCA/pos',
     'depends': [
         'point_of_sale',
     ],

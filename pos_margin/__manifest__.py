@@ -4,13 +4,14 @@
 
 {
     'name': 'POS Margin',
-    'version': '11.0.1.0.0',
+    'version': '11.0.1.0.1',
     'category': 'Point Of Sale',
     'sequence': 1,
     'author': "GRAP,"
               "Odoo Community Association (OCA)",
     'summary': 'Margin on PoS Order',
     'license': 'AGPL-3',
+    'website': 'https://github.com/OCA/pos',
     'depends': [
         'point_of_sale',
     ],
