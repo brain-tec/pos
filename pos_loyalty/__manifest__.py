@@ -5,13 +5,13 @@
 
 {
     'name': 'Loyalty Program',
-    'version': '10.0.1.0.0',
+    'version': '10.0.1.0.1',
     'category': 'Point of Sale',
     'license': 'AGPL-3',
     'author': "OpenERP SA, "
               "RGB Consulting SL, "
               "Odoo Community Association (OCA)",
-    'website': "https://odoo-community.org/",
+    'website': "https://github.com/OCA/pos",
     'depends': ['point_of_sale'],
 
     'data': [

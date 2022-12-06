@@ -4,13 +4,14 @@
 
 {
     'name': 'POS Pricelist',
-    'version': '10.0.1.0.4',
+    'version': '10.0.1.0.5',
     'category': 'Point Of Sale',
     'author': "Tecnativa, "
               "Odoo SA, "
               "Odoo Community Association (OCA)",
     'summary': 'Pricelist for Point of sale',
     'license': 'LGPL-3',
+    'website': 'https://github.com/OCA/pos',
     'post_init_hook': 'post_init_hook',
     'depends': [
         "point_of_sale",

@@ -5,11 +5,12 @@
 
 {
     'name': 'POS Customer Display',
-    'version': '10.0.1.0.1',
+    'version': '10.0.1.0.2',
     'category': 'Point Of Sale',
     'summary': 'Manage Customer Display device from POS front end',
     'author': "Aurélien DUMAINE,Akretion,Odoo Community Association (OCA)",
     'license': 'AGPL-3',
+    'website': 'https://github.com/OCA/pos',
     'depends': ['point_of_sale'],
     'data': [
         'views/pos_customer_display.xml',

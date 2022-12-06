@@ -4,10 +4,11 @@
 {
     "name": "Pos Fix Search Limit",
     "summary": "Increase search in the PoS",
-    "version": "10.0.1.0.0",
+    "version": "10.0.1.0.1",
     "category": "Point of Sale",
     "author": "Akretion, Odoo Community Association (OCA)",
     "license": "AGPL-3",
+    "website": "https://github.com/OCA/pos",
     "application": False,
     "installable": True,
     "depends": [

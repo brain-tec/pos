@@ -5,11 +5,11 @@
 {
     'name': 'Product Brand POS Report',
     'summary': 'Product Brand in Point of Sale Report',
-    'version': '10.0.1.0.1',
+    'version': '10.0.1.0.2',
     'description': 'Show product Brand in pos order report',
     'category': 'Point Of Sale',
     'author': 'PlanetaTIC, Odoo Community Association (OCA)',
-    'website': 'https://www.github.com/OCA/pos',
+    'website': 'https://github.com/OCA/pos',
     'license': 'AGPL-3',
     'application': False,
     'installable': True,
