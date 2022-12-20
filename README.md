@@ -25,6 +25,7 @@ addon | version | maintainers | summary
 [pos_backend_communication](pos_backend_communication/) | 14.0.1.0.1 | [![hparfr](https://github.com/hparfr.png?size=30px)](https://github.com/hparfr) | Communicate with odoo's backend from POS.
 [pos_cash_move_reason](pos_cash_move_reason/) | 14.0.1.1.0 |  | POS cash in-out reason
 [pos_customer_required](pos_customer_required/) | 14.0.1.0.0 |  | Point of Sale Require Customer
+[pos_customer_tree_view_vat](pos_customer_tree_view_vat/) | 14.0.1.0.1 | [![mileo](https://github.com/mileo.png?size=30px)](https://github.com/mileo) | Point of Sale: Show VAT number at Customer Tree View
 [pos_default_partner](pos_default_partner/) | 14.0.1.0.0 |  | Add a default customer in pos order
 [pos_disable_pricelist_selection](pos_disable_pricelist_selection/) | 14.0.1.0.1 |  | Disable Pricelist selection button in POS
 [pos_edit_order_line](pos_edit_order_line/) | 14.0.1.0.2 |  | POS Edit Order Line
@@ -44,7 +45,7 @@ addon | version | maintainers | summary
 [pos_product_display_default_code](pos_product_display_default_code/) | 14.0.1.0.1 |  | pos: display product default code before product name
 [pos_product_multi_barcode](pos_product_multi_barcode/) | 14.0.1.0.2 |  | Make product multi barcodes usable in the point of sale
 [pos_product_sort](pos_product_sort/) | 14.0.1.0.0 |  | sort the products by name in the point of sale instead of sorting them by the sequence field.
-[pos_product_template](pos_product_template/) | 14.0.1.0.1 |  | Manage Product Template in Front End Point Of Sale
+[pos_product_template](pos_product_template/) | 14.0.1.0.2 |  | Manage Product Template in Front End Point Of Sale
 [pos_product_template_configurator](pos_product_template_configurator/) | 14.0.1.0.0 | [![GabbasovDinar](https://github.com/GabbasovDinar.png?size=30px)](https://github.com/GabbasovDinar) [![isserver1](https://github.com/isserver1.png?size=30px)](https://github.com/isserver1) | Manage Product Template in Front End Point Of Sale via Configurator
 [pos_receipt_hide_price](pos_receipt_hide_price/) | 14.0.1.0.1 |  | Add button to remove price from receipt.
 [pos_report_session_summary](pos_report_session_summary/) | 14.0.1.0.2 |  | Adds a Session Summary PDF report on the POS session
