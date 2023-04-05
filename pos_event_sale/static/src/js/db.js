@@ -31,7 +31,7 @@ odoo.define("pos_event_sale.db", function (require) {
          */
         addEvents: function (events) {
             /* eslint-disable no-param-reassign */
-            if (!events instanceof Array) {
+            if (!(events instanceof Array)) {
                 events = [events];
             }
             for (const event of events) {
@@ -67,7 +67,7 @@ odoo.define("pos_event_sale.db", function (require) {
          */
         addEventTickets: function (tickets) {
             /* eslint-disable no-param-reassign */
-            if (!tickets instanceof Array) {
+            if (!(tickets instanceof Array)) {
                 tickets = [tickets];
             }
             for (const ticket of tickets) {
@@ -82,6 +82,11 @@ odoo.define("pos_event_sale.db", function (require) {
                 if (this.event_ticket_by_id[ticket.id]) {
                     Object.assign(this.event_ticket_by_id[ticket.id], ticket);
                 } else {
+                    // Ignore ticket updates with missing fields.
+                    // This can happen during the seats availability update.
+                    if (!ticket.event_id) {
+                        continue;
+                    }
                     // Map event ticket by id
                     this.event_ticket_by_id[ticket.id] = ticket;
                     // Map event ticket by event id
@@ -104,7 +109,9 @@ odoo.define("pos_event_sale.db", function (require) {
          */
         getEventByID: function (event_id, raiseIfNotFound = true) {
             if (event_id instanceof Array) {
-                return event_id.map((id) => this.getEventByID(id)).filter(Boolean);
+                return event_id
+                    .map((id) => this.getEventByID(id, raiseIfNotFound))
+                    .filter(Boolean);
             }
             const event = this.event_by_id[event_id];
             if (!event && raiseIfNotFound) {
@@ -120,7 +127,7 @@ odoo.define("pos_event_sale.db", function (require) {
         getEventTicketByID: function (ticket_id, raiseIfNotFound = true) {
             if (ticket_id instanceof Array) {
                 return ticket_id
-                    .map((id) => this.getEventTicketByID(id))
+                    .map((id) => this.getEventTicketByID(id, raiseIfNotFound))
                     .filter(Boolean);
             }
             const ticket = this.event_ticket_by_id[ticket_id];

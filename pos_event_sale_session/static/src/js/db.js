@@ -28,7 +28,7 @@ odoo.define("pos_event_sale_session.db", function (require) {
          */
         addEventSessions: function (sessions) {
             /* eslint-disable no-param-reassign */
-            if (!sessions instanceof Array) {
+            if (!(sessions instanceof Array)) {
                 sessions = [sessions];
             }
             for (const session of sessions) {
@@ -66,7 +66,7 @@ odoo.define("pos_event_sale_session.db", function (require) {
         getEventSessionByID: function (session_id, raiseIfNotFound = true) {
             if (session_id instanceof Array) {
                 return session_id
-                    .map((id) => this.getEventSessionByID(id))
+                    .map((id) => this.getEventSessionByID(id, raiseIfNotFound))
                     .filter(Boolean);
             }
             const session = this.event_session_by_id[session_id];
