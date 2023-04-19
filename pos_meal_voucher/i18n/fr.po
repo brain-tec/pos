@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-01 17:04+0000\n"
-"PO-Revision-Date: 2020-09-01 17:04+0000\n"
+"POT-Creation-Date: 2023-01-23 15:25+0000\n"
+"PO-Revision-Date: 2023-01-23 15:25+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "Language: \n"
@@ -76,10 +76,24 @@ msgid "Discounted Product"
 msgstr "Article en promotion"
 
 #. module: pos_meal_voucher
+#: model:ir.model.fields,field_description:pos_meal_voucher.field_pos_config__meal_voucher_display_info_ticket
+#: model_terms:ir.ui.view,arch_db:pos_meal_voucher.view_pos_config_form
+msgid "Display Information on Ticket"
+msgstr "Afficher des informations sur le ticket"
+
+#. module: pos_meal_voucher
 #: model:ir.model.fields,field_description:pos_meal_voucher.field_pos_config__meal_voucher_display_product_screen
 #: model_terms:ir.ui.view,arch_db:pos_meal_voucher.view_pos_config_form
 msgid "Display icon before products on screen"
 msgstr "Afficher une icone devant les produits"
+
+#. module: pos_meal_voucher
+#. openerp-web
+#: code:addons/pos_meal_voucher/static/src/xml/pos_meal_voucher.xml:100
+#: code:addons/pos_meal_voucher/static/src/xml/pos_meal_voucher.xml:118
+#, python-format
+msgid "Eligible Total:"
+msgstr "Total éligible :"
 
 #. module: pos_meal_voucher
 #: model:product.category,name:pos_meal_voucher.food_category
@@ -89,7 +103,18 @@ msgstr "Alimentaire"
 #. module: pos_meal_voucher
 #: model:ir.model.fields,field_description:pos_meal_voucher.field_pos_config__has_meal_voucher_journal
 msgid "Has Meal Voucher Journal"
+msgstr "A un journal de titre restaurant"
+
+#. module: pos_meal_voucher
+#: model_terms:ir.ui.view,arch_db:pos_meal_voucher.view_pos_config_form
+msgid ""
+"If checked, a star (*) will be displayed on the ticket, before each product "
+"that can be paid with meal vouchers, and the total of the eligible product "
+"will be printed."
 msgstr ""
+"Si la case est cochée, une étoile (*) sera affichée sur le ticket, devant "
+"chaque article éligible au titre restaurant, et le total éligible sera "
+"imprimé."
 
 #. module: pos_meal_voucher
 #: model_terms:ir.ui.view,arch_db:pos_meal_voucher.view_pos_config_form
@@ -97,8 +122,8 @@ msgid ""
 "If checked, an icon will be displayed on the screen, before each product "
 "that can be paid with meal vouchers."
 msgstr ""
-"Si la case est cochée, une icône sera affiché sur l'écran du point de vente, "
-"avant chaque produit éligible au paiement par titre restaurant."
+"Si la case est cochée, une icône sera affichée sur l'écran du point de "
+"vente, avant chaque article éligible au paiement par titre restaurant."
 
 #. module: pos_meal_voucher
 #: model:ir.model.fields,help:pos_meal_voucher.field_product_category__meal_voucher_ok
@@ -214,14 +239,13 @@ msgstr "Article à prix fixe"
 
 #. module: pos_meal_voucher
 #: selection:barcode.rule,type:0
-#, fuzzy
 msgid "Priced Product (Computed Weight)"
-msgstr "Article à prix fixe"
+msgstr ""
 
 #. module: pos_meal_voucher
 #: model:ir.model,name:pos_meal_voucher.model_product_product
 msgid "Product"
-msgstr ""
+msgstr "Article"
 
 #. module: pos_meal_voucher
 #: model:ir.model,name:pos_meal_voucher.model_product_category
@@ -234,6 +258,15 @@ msgid "Product Template"
 msgstr "Modèle d'article"
 
 #. module: pos_meal_voucher
+#. openerp-web
+#: code:addons/pos_meal_voucher/static/src/xml/pos_meal_voucher.xml:96
+#: code:addons/pos_meal_voucher/static/src/xml/pos_meal_voucher.xml:114
+#, python-format
+msgid "Products marked with a star (*) are eligible for Meal vouchers."
+msgstr ""
+"Les articles marqués d'une étoile (*) sont éligibles aux titres restaurants."
+
+#. module: pos_meal_voucher
 #: selection:barcode.rule,type:0
 msgid "Tare"
 msgstr ""
@@ -241,7 +274,6 @@ msgstr ""
 #. module: pos_meal_voucher
 #: model:ir.model.fields,field_description:pos_meal_voucher.field_account_bank_statement_import_journal_creation__meal_voucher_mixed_text
 #: model:ir.model.fields,field_description:pos_meal_voucher.field_account_journal__meal_voucher_mixed_text
-#, fuzzy
 msgid "Text for Mixed journal"
 msgstr "Texte pour le journal mixte"
 
@@ -305,23 +337,3 @@ msgstr ""
 #: model:product.template,weight_uom_name:pos_meal_voucher.bread_product_template
 msgid "kg"
 msgstr "kg"
-
-#~ msgid ", when the maximum amount is "
-#~ msgstr ", alors que le montant maximum est de "
-
-#~ msgid ""
-#~ ".\n"
-#~ "\n"
-#~ " Clicking 'Confirm' will validate the payment."
-#~ msgstr ""
-#~ ".\n"
-#~ "\n"
-#~ " Cliquer sur 'confirmer' validera le paiement."
-
-#~ msgid "Please Confirm Meal Voucher Amount"
-#~ msgstr "Veuillez confirmer le montant en titre restaurant"
-
-#~ msgid "You are about to validate a meal voucher payment of "
-#~ msgstr ""
-#~ "Vous êtes sur le point de valider un paiement en titre restaurant d'un "
-#~ "montant de "
