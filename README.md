@@ -35,7 +35,7 @@ addon | version | maintainers | summary
 [pos_global_discount_in_line](pos_global_discount_in_line/) | 14.0.1.0.0 |  | Order discount in line instead of discount product
 [pos_hide_banknote_button](pos_hide_banknote_button/) | 14.0.1.0.1 |  | Hide useless Banknote buttons in the PoS (+10, +20, +50)
 [pos_margin](pos_margin/) | 14.0.1.0.3 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Margin on PoS Order
-[pos_no_cash_bank_statement](pos_no_cash_bank_statement/) | 14.0.1.0.2 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Generate bank statements for all payment methods, not only cash
+[pos_no_cash_bank_statement](pos_no_cash_bank_statement/) | 14.0.1.0.3 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Generate bank statements for all payment methods, not only cash
 [pos_order_mgmt](pos_order_mgmt/) | 14.0.1.0.0 |  | Manage old POS Orders from the frontend
 [pos_order_product_search](pos_order_product_search/) | 14.0.1.0.0 |  | Search for orders by product fields
 [pos_order_remove_line](pos_order_remove_line/) | 14.0.1.0.0 | [![robyf70](https://github.com/robyf70.png?size=30px)](https://github.com/robyf70) | Add button to remove POS order line.
@@ -43,7 +43,7 @@ addon | version | maintainers | summary
 [pos_order_to_sale_order](pos_order_to_sale_order/) | 14.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | PoS Order To Sale Order
 [pos_partner_birthdate](pos_partner_birthdate/) | 14.0.1.0.2 | [![ecino](https://github.com/ecino.png?size=30px)](https://github.com/ecino) | Adds the birthdate in the customer screen of POS
 [pos_partner_firstname](pos_partner_firstname/) | 14.0.1.0.1 | [![robyf70](https://github.com/robyf70.png?size=30px)](https://github.com/robyf70) | POS Support of partner firstname
-[pos_payment_change](pos_payment_change/) | 14.0.1.0.1 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Allow cashier to change order payments, as long as the session is not closed.
+[pos_payment_change](pos_payment_change/) | 14.0.1.0.2 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Allow cashier to change order payments, as long as the session is not closed.
 [pos_payment_method_cashdro](pos_payment_method_cashdro/) | 14.0.1.0.1 |  | Allows to pay with CashDro Terminals on the Point of Sale
 [pos_payment_terminal](pos_payment_terminal/) | 14.0.2.1.0 |  | Point of sale: support generic payment terminal
 [pos_product_display_default_code](pos_product_display_default_code/) | 14.0.1.0.1 |  | pos: display product default code before product name
