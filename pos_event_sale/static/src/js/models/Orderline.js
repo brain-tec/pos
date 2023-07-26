@@ -15,10 +15,6 @@ odoo.define("pos_event_sale.Orderline", function (require) {
 
     const PosEventSaleOrderLine = (Orderline) =>
         class extends Orderline {
-            setup() {
-                super.setup();
-            }
-
             /**
              * @returns the event.ticket object
              */
