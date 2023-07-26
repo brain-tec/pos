@@ -14,10 +14,6 @@ odoo.define("pos_event_sale.Order", function (require) {
     // Extend the Pos global state to load events
     const PosEventSaleOrder = (Order) =>
         class extends Order {
-            setup() {
-                super.setup();
-            }
-
             /**
              * @returns {Orderlines} linked to event tickets
              */
