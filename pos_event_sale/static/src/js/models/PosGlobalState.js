@@ -134,6 +134,16 @@ odoo.define("pos_event_sale.models", function (require) {
                 });
                 eventTicketModel.loaded(this, eventTickets);
             }
+
+            /**
+             * Prevent race condition on clicking twice the payment screen validate button
+             */
+            _flush_orders(orders, options) {
+                if (!orders || !orders.length || orders[0] === undefined) {
+                    return Promise.resolve([]);
+                }
+                return super._flush_orders(...arguments);
+            }
         };
 
     Registries.Model.extend(PosGlobalState, PosEventSalePosGlobalState);
