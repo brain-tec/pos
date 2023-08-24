@@ -21,7 +21,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[pos_customer_comment](pos_customer_comment/) | 16.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Display Customer comment in the PoS front office and allow to edit and save it by the cashier
+[pos_customer_comment](pos_customer_comment/) | 16.0.1.0.2 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Display Customer comment in the PoS front office and allow to edit and save it by the cashier
 [pos_default_partner](pos_default_partner/) | 16.0.1.0.0 |  | Add a default customer in pos order
 [pos_edit_order_line](pos_edit_order_line/) | 16.0.1.0.1 |  | POS Edit Order Line
 [pos_escpos_status](pos_escpos_status/) | 16.0.1.0.0 |  | Point of sale: fetch status for 'escpos' driver
@@ -35,7 +35,7 @@ addon | version | maintainers | summary
 [pos_order_reorder](pos_order_reorder/) | 16.0.0.1.0 | [![GabbasovDinar](https://github.com/GabbasovDinar.png?size=30px)](https://github.com/GabbasovDinar) [![CetmixGitDrone](https://github.com/CetmixGitDrone.png?size=30px)](https://github.com/CetmixGitDrone) | Simple Re-order in the Point of Sale
 [pos_order_to_sale_order](pos_order_to_sale_order/) | 16.0.1.0.5 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | PoS Order To Sale Order
 [pos_order_to_sale_order_report](pos_order_to_sale_order_report/) | 16.0.1.0.0 | [![GabbasovDinar](https://github.com/GabbasovDinar.png?size=30px)](https://github.com/GabbasovDinar) [![CetmixGitDrone](https://github.com/CetmixGitDrone.png?size=30px)](https://github.com/CetmixGitDrone) | Report will be downloaded after the sales order is created.
-[pos_partner_birthdate](pos_partner_birthdate/) | 16.0.1.0.1 | [![ecino](https://github.com/ecino.png?size=30px)](https://github.com/ecino) | Adds the birthdate in the customer screen of POS
+[pos_partner_birthdate](pos_partner_birthdate/) | 16.0.1.0.2 | [![ecino](https://github.com/ecino.png?size=30px)](https://github.com/ecino) | Adds the birthdate in the customer screen of POS
 [pos_payment_change](pos_payment_change/) | 16.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Allow cashier to change order payments, as long as the session is not closed.
 [pos_payment_terminal](pos_payment_terminal/) | 16.0.1.0.1 |  | Point of sale: support generic payment terminal
 [pos_product_display_default_code](pos_product_display_default_code/) | 16.0.1.0.0 |  | pos: display product default code before product name
