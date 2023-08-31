@@ -17,4 +17,6 @@ class EventMail(models.Model):
 
         This way we also prevent long delays in the POS, at the time of the order validation.
         """
-        return super()._create_missing_mail_registrations(registrations.filtered('email'))
+        return super()._create_missing_mail_registrations(
+            registrations.filtered("email")
+        )

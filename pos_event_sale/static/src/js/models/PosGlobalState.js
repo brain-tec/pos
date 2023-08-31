@@ -14,7 +14,6 @@ odoo.define("pos_event_sale.models", function (require) {
     // Extend the Pos global state to load events
     const PosEventSalePosGlobalState = (PosGlobalState) =>
         class extends PosGlobalState {
-
             async _processData(loadedData) {
                 await super._processData(loadedData);
                 this._loadEventEvent(loadedData["event.event"]);
