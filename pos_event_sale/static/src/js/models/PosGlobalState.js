@@ -138,7 +138,7 @@ odoo.define("pos_event_sale.models", function (require) {
             /**
              * Prevent race condition on clicking twice the payment screen validate button
              */
-            _flush_orders(orders, options) {
+            _flush_orders(orders) {
                 if (!orders || !orders.length || orders[0] === undefined) {
                     return Promise.resolve([]);
                 }
