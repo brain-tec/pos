@@ -8,6 +8,7 @@ setuptools.setup(
     description="Meta package for oca-pos Odoo addons",
     version=version,
     install_requires=[
+        'odoo-addon-pos_access_right>=16.0dev,<16.1dev',
         'odoo-addon-pos_customer_comment>=16.0dev,<16.1dev',
         'odoo-addon-pos_default_partner>=16.0dev,<16.1dev',
         'odoo-addon-pos_discount_all>=16.0dev,<16.1dev',
@@ -25,6 +26,7 @@ setuptools.setup(
         'odoo-addon-pos_order_to_sale_order>=16.0dev,<16.1dev',
         'odoo-addon-pos_order_to_sale_order_report>=16.0dev,<16.1dev',
         'odoo-addon-pos_partner_birthdate>=16.0dev,<16.1dev',
+        'odoo-addon-pos_partner_firstname>=16.0dev,<16.1dev',
         'odoo-addon-pos_payment_change>=16.0dev,<16.1dev',
         'odoo-addon-pos_payment_terminal>=16.0dev,<16.1dev',
         'odoo-addon-pos_product_display_default_code>=16.0dev,<16.1dev',
