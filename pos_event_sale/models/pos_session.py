@@ -57,10 +57,10 @@ class PosSession(models.Model):
             domain.append(("date_end", ">=", date_end))
 
         if self.config_id.iface_event_load_days_after >= 0:
-            date_start = date_utils.add(
+            date_begin = date_utils.add(
                 fields.Date.today(), self.config_id.iface_event_load_days_after, "days"
             )
-            domain.append(("date_start", "<=", date_start))
+            domain.append(("date_begin", "<=", date_begin))
 
         fields_list = [
             "name",
