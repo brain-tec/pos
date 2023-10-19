@@ -44,11 +44,11 @@ class PosSession(models.Model):
 
         if self.config_id.iface_available_event_type_ids:
             event_type_ids = self.config_id.iface_available_event_type_ids
-            domain.append(("event_type_id", "in", event_type_ids))
+            domain.append(("event_type_id", "in", event_type_ids.ids))
 
         if self.config_id.iface_available_event_tag_ids:
             event_tag_ids = self.config_id.iface_available_event_tag_ids
-            domain.append(("tag_ids", "in", event_tag_ids))
+            domain.append(("tag_ids", "in", event_tag_ids.ids))
 
         if self.config_id.iface_event_load_days_before >= 0:
             date_end = date_utils.subtract(
