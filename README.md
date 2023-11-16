@@ -11,6 +11,10 @@
 
 Odoo modules for Point of Sale.
 
+# BT Customizations
+
+- Addition of https://github.com/OCA/pos/pull/1022
+
 <!-- /!\ do not modify below this line -->
 
 <!-- prettier-ignore-start -->
