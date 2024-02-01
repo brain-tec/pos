@@ -36,6 +36,7 @@ setuptools.setup(
         'odoo-addon-pos_product_display_default_code>=16.0dev,<16.1dev',
         'odoo-addon-pos_product_label>=16.0dev,<16.1dev',
         'odoo-addon-pos_product_multi_barcode>=16.0dev,<16.1dev',
+        'odoo-addon-pos_product_packaging_container_deposit>=16.0dev,<16.1dev',
         'odoo-addon-pos_product_packaging_multi_barcode>=16.0dev,<16.1dev',
         'odoo-addon-pos_product_quick_info>=16.0dev,<16.1dev',
         'odoo-addon-pos_receipt_hide_price>=16.0dev,<16.1dev',
@@ -43,6 +44,7 @@ setuptools.setup(
         'odoo-addon-pos_sale_order_print>=16.0dev,<16.1dev',
         'odoo-addon-pos_sale_product_config_no_variant>=16.0dev,<16.1dev',
         'odoo-addon-pos_stock_available_online>=16.0dev,<16.1dev',
+        'odoo-addon-pos_to_weight_by_product_uom>=16.0dev,<16.1dev',
     ],
     classifiers=[
         'Programming Language :: Python',

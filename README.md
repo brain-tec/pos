@@ -49,6 +49,7 @@ addon | version | maintainers | summary
 [pos_product_display_default_code](pos_product_display_default_code/) | 16.0.1.0.0 |  | pos: display product default code before product name
 [pos_product_label](pos_product_label/) | 16.0.1.0.0 | [![ivantodorovich](https://github.com/ivantodorovich.png?size=30px)](https://github.com/ivantodorovich) | Print product labels from the POS
 [pos_product_multi_barcode](pos_product_multi_barcode/) | 16.0.1.0.1 |  | Make product multi barcodes usable in the point of sale
+[pos_product_packaging_container_deposit](pos_product_packaging_container_deposit/) | 16.0.1.0.0 |  | Add the container deposit fees in a POS order
 [pos_product_packaging_multi_barcode](pos_product_packaging_multi_barcode/) | 16.0.1.0.0 |  | Make product packaging multi barcodes usable in the point of sale
 [pos_product_quick_info](pos_product_quick_info/) | 16.0.1.0.2 |  | Display product info by one click in Point of Sale
 [pos_receipt_hide_price](pos_receipt_hide_price/) | 16.0.1.0.0 |  | Add button to remove price from receipt.
@@ -56,6 +57,7 @@ addon | version | maintainers | summary
 [pos_sale_order_print](pos_sale_order_print/) | 16.0.1.0.2 |  | Print multiple sale orders in POS
 [pos_sale_product_config_no_variant](pos_sale_product_config_no_variant/) | 16.0.1.0.0 | [![ursais](https://github.com/ursais.png?size=30px)](https://github.com/ursais) | Manage Point Of Sale via Configurator of no variant
 [pos_stock_available_online](pos_stock_available_online/) | 16.0.1.0.3 |  | Show the available quantity of products in the Point of Sale
+[pos_to_weight_by_product_uom](pos_to_weight_by_product_uom/) | 16.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Make 'To Weight' default value depending on product UoM settings
 
 [//]: # (end addons)
 
