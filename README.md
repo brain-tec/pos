@@ -40,7 +40,7 @@ addon | version | maintainers | summary
 [pos_order_new_line](pos_order_new_line/) | 16.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Allow cashier to create a new order line, instead of merging the quantity with a previous line
 [pos_order_remove_line](pos_order_remove_line/) | 16.0.1.2.1 | [![robyf70](https://github.com/robyf70.png?size=30px)](https://github.com/robyf70) | Add button to remove POS order line.
 [pos_order_reorder](pos_order_reorder/) | 16.0.0.1.2 |  | Simple Re-order in the Point of Sale
-[pos_order_to_sale_order](pos_order_to_sale_order/) | 16.0.1.0.7 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | PoS Order To Sale Order
+[pos_order_to_sale_order](pos_order_to_sale_order/) | 16.0.1.0.8 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | PoS Order To Sale Order
 [pos_order_to_sale_order_delivery](pos_order_to_sale_order_delivery/) | 16.0.1.0.1 | [![GabbasovDinar](https://github.com/GabbasovDinar.png?size=30px)](https://github.com/GabbasovDinar) [![CetmixGitDrone](https://github.com/CetmixGitDrone.png?size=30px)](https://github.com/CetmixGitDrone) | Compatibility of pos_order_to_sale_order and delivery modules
 [pos_order_to_sale_order_report](pos_order_to_sale_order_report/) | 16.0.1.0.2 |  | Report will be downloaded after the sales order is created.
 [pos_order_to_sale_order_sale_financial_risk](pos_order_to_sale_order_sale_financial_risk/) | 16.0.1.0.1 | [![geomer198](https://github.com/geomer198.png?size=30px)](https://github.com/geomer198) [![CetmixGitDrone](https://github.com/CetmixGitDrone.png?size=30px)](https://github.com/CetmixGitDrone) | Sale Financial Risk control for Sales Orders created from POS
@@ -65,10 +65,11 @@ addon | version | maintainers | summary
 [pos_receipt_hide_info](pos_receipt_hide_info/) | 16.0.1.0.0 |  | Removes Information from POS receipt.
 [pos_receipt_hide_price](pos_receipt_hide_price/) | 16.0.1.0.0 |  | Add button to remove price from receipt.
 [pos_receipt_replace_user_by_trigram](pos_receipt_replace_user_by_trigram/) | 16.0.1.0.0 |  | Replace User by Trigram in POS receipt.
-[pos_receipt_replace_user_by_trigram_hr](pos_receipt_replace_user_by_trigram_hr/) | 16.0.1.0.0 |  | Link module between pos_receipt_replace_user_by_trigram and pos_hr
+[pos_receipt_replace_user_by_trigram_hr](pos_receipt_replace_user_by_trigram_hr/) | 16.0.1.0.1 |  | Link module between pos_receipt_replace_user_by_trigram and pos_hr
 [pos_reset_search](pos_reset_search/) | 16.0.1.0.0 | [![fkawala](https://github.com/fkawala.png?size=30px)](https://github.com/fkawala) | Point of Sale - Clear product search when user clicks on a product.
 [pos_sale_order_print](pos_sale_order_print/) | 16.0.1.0.2 |  | Print multiple sale orders in POS
 [pos_sale_product_config_no_variant](pos_sale_product_config_no_variant/) | 16.0.1.0.0 | [![ursais](https://github.com/ursais.png?size=30px)](https://github.com/ursais) | Manage Point Of Sale via Configurator of no variant
+[pos_screen_element_custom_size](pos_screen_element_custom_size/) | 16.0.1.0.0 |  | Set custom size for POS screen elements
 [pos_stock_available_online](pos_stock_available_online/) | 16.0.1.0.3 |  | Show the available quantity of products in the Point of Sale
 [pos_to_weight_by_product_uom](pos_to_weight_by_product_uom/) | 16.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Make 'To Weight' default value depending on product UoM settings
 
