@@ -22,6 +22,7 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [pos_access_right](pos_access_right/) | 16.0.1.0.1 |  | Point of Sale - Extra Access Right for certain actions
+[pos_config_logo](pos_config_logo/) | 16.0.1.0.0 |  | Set logotypes different from the company's one
 [pos_customer_comment](pos_customer_comment/) | 16.0.1.0.2 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Display Customer comment in the PoS front office and allow to edit and save it by the cashier
 [pos_daily_sales_reports_category_only](pos_daily_sales_reports_category_only/) | 16.0.1.0.0 |  | Show Sales Reports by Category
 [pos_default_partner](pos_default_partner/) | 16.0.1.0.0 |  | Add a default customer in pos order
@@ -72,6 +73,7 @@ addon | version | maintainers | summary
 [pos_sale_product_config_no_variant](pos_sale_product_config_no_variant/) | 16.0.1.0.0 | [![ursais](https://github.com/ursais.png?size=30px)](https://github.com/ursais) | Manage Point Of Sale via Configurator of no variant
 [pos_screen_element_custom_size](pos_screen_element_custom_size/) | 16.0.1.0.0 |  | Set custom size for POS screen elements
 [pos_stock_available_online](pos_stock_available_online/) | 16.0.1.0.3 |  | Show the available quantity of products in the Point of Sale
+[pos_supplierinfo_search](pos_supplierinfo_search/) | 16.0.1.0.0 | [![eLBati](https://github.com/eLBati.png?size=30px)](https://github.com/eLBati) | Search products by supplier data
 [pos_timeout](pos_timeout/) | 16.0.1.0.0 |  | Set the timeout of the point of sale
 [pos_to_weight_by_product_uom](pos_to_weight_by_product_uom/) | 16.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Make 'To Weight' default value depending on product UoM settings
 
