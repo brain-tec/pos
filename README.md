@@ -60,6 +60,7 @@ addon | version | maintainers | summary
 [pos_payment_restriction](pos_payment_restriction/) | 16.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | Adds restrictions options on POS payment level
 [pos_payment_terminal](pos_payment_terminal/) | 16.0.1.0.2 |  | Point of sale: support generic payment terminal
 [pos_picking_delayed](pos_picking_delayed/) | 16.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Delay the creation of the picking when PoS order is created
+[pos_price_to_weight](pos_price_to_weight/) | 16.0.1.0.0 |  | Compute weight based on barcodes with prices
 [pos_pricelist_technical](pos_pricelist_technical/) | 16.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Prevent technical pricelists from being displayed in the Point of Sale front-end UI
 [pos_product_display_default_code](pos_product_display_default_code/) | 16.0.1.0.0 |  | pos: display product default code before product name
 [pos_product_label](pos_product_label/) | 16.0.1.0.2 | [![ivantodorovich](https://github.com/ivantodorovich.png?size=30px)](https://github.com/ivantodorovich) | Print product labels from the POS
@@ -80,6 +81,7 @@ addon | version | maintainers | summary
 [pos_session_pay_invoice](pos_session_pay_invoice/) | 16.0.1.0.0 |  | Pay and receive invoices from PoS Session
 [pos_stock_available_online](pos_stock_available_online/) | 16.0.1.0.3 |  | Show the available quantity of products in the Point of Sale
 [pos_supplierinfo_search](pos_supplierinfo_search/) | 16.0.1.0.0 | [![eLBati](https://github.com/eLBati.png?size=30px)](https://github.com/eLBati) | Search products by supplier data
+[pos_ticket_extra_company_info_l10n_fr](pos_ticket_extra_company_info_l10n_fr/) | 16.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Add siret company infos on the ticket
 [pos_timeout](pos_timeout/) | 16.0.1.0.0 |  | Set the timeout of the point of sale
 [pos_to_weight_by_product_uom](pos_to_weight_by_product_uom/) | 16.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Make 'To Weight' default value depending on product UoM settings
 
