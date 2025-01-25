@@ -56,6 +56,7 @@ addon | version | maintainers | summary
 [pos_partner_location_google_map](pos_partner_location_google_map/) | 16.0.1.0.0 |  | POS Partner Location Google Map
 [pos_partner_sale_warning](pos_partner_sale_warning/) | 16.0.1.0.0 |  | Show partner sales warning in POS
 [pos_payment_change](pos_payment_change/) | 16.0.1.0.4 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Allow cashier to change order payments, as long as the session is not closed.
+[pos_payment_description](pos_payment_description/) | 16.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Payment description on order tree view
 [pos_payment_method_cashdro](pos_payment_method_cashdro/) | 16.0.1.0.0 |  | Allows to pay with CashDro Terminals on the Point of Sale
 [pos_payment_method_change_policy](pos_payment_method_change_policy/) | 16.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Adds alternative way to handle Change in Point of Sale.
 [pos_payment_method_image](pos_payment_method_image/) | 16.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Add images on Payment Methods available in the PoS
