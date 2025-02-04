@@ -12,6 +12,7 @@ setuptools.setup(
         'odoo-addon-pos_bypass_global_discount>=16.0dev,<16.1dev',
         'odoo-addon-pos_cash_control_override>=16.0dev,<16.1dev',
         'odoo-addon-pos_config_logo>=16.0dev,<16.1dev',
+        'odoo-addon-pos_container_deposit>=16.0dev,<16.1dev',
         'odoo-addon-pos_customer_comment>=16.0dev,<16.1dev',
         'odoo-addon-pos_customer_tree_view_vat>=16.0dev,<16.1dev',
         'odoo-addon-pos_daily_sales_reports_category_only>=16.0dev,<16.1dev',

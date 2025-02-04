@@ -25,6 +25,7 @@ addon | version | maintainers | summary
 [pos_bypass_global_discount](pos_bypass_global_discount/) | 16.0.1.0.0 |  | POS Bypass Global Discount
 [pos_cash_control_override](pos_cash_control_override/) | 16.0.1.0.0 |  | Override bare PoS user cash control restrictions
 [pos_config_logo](pos_config_logo/) | 16.0.1.0.0 |  | Set logotypes different from the company's one
+[pos_container_deposit](pos_container_deposit/) | 16.0.1.0.0 |  | This module is used to manage container deposits for products in Point of Sale.
 [pos_customer_comment](pos_customer_comment/) | 16.0.1.0.2 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Display Customer comment in the PoS front office and allow to edit and save it by the cashier
 [pos_customer_tree_view_vat](pos_customer_tree_view_vat/) | 16.0.1.0.1 | [![mileo](https://github.com/mileo.png?size=30px)](https://github.com/mileo) | Point of Sale: Show VAT number at Customer Tree View
 [pos_daily_sales_reports_category_only](pos_daily_sales_reports_category_only/) | 16.0.1.0.0 |  | Show Sales Reports by Category
