@@ -38,11 +38,13 @@ addon | version | maintainers | summary
 [pos_partner_firstname](pos_partner_firstname/) | 17.0.1.0.1 | <a href='https://github.com/robyf70'><img src='https://github.com/robyf70.png' width='32' height='32' style='border-radius:50%;' alt='robyf70'/></a> | POS Support of partner firstname
 [pos_partner_firstname_required](pos_partner_firstname_required/) | 17.0.1.0.0 | <a href='https://github.com/peluko00'><img src='https://github.com/peluko00.png' width='32' height='32' style='border-radius:50%;' alt='peluko00'/></a> | Put partner firstname required in pos
 [pos_partner_ref](pos_partner_ref/) | 17.0.1.0.0 | <a href='https://github.com/invitu'><img src='https://github.com/invitu.png' width='32' height='32' style='border-radius:50%;' alt='invitu'/></a> | Adds the partner ref in the customer screen of POS
+[pos_partner_sale_warning](pos_partner_sale_warning/) | 17.0.1.0.0 |  | Show partner sales warning in POS
 [pos_partner_second_lastname](pos_partner_second_lastname/) | 17.0.1.0.0 |  | Manage second last name inside Point Of Sale Frontend
 [pos_partner_vat_required](pos_partner_vat_required/) | 17.0.1.0.0 | <a href='https://github.com/peluko00'><img src='https://github.com/peluko00.png' width='32' height='32' style='border-radius:50%;' alt='peluko00'/></a> | Put partner vat required in pos
 [pos_partner_vat_valid](pos_partner_vat_valid/) | 17.0.1.0.0 | <a href='https://github.com/peluko00'><img src='https://github.com/peluko00.png' width='32' height='32' style='border-radius:50%;' alt='peluko00'/></a> | Validate partner vat in POS
 [pos_product_expiry](pos_product_expiry/) | 17.0.1.0.1 |  | Evaluate expiry of lot
 [pos_product_template](pos_product_template/) | 17.0.1.0.0 |  | Manage Product Template in Front End Point Of Sale
+[pos_session_sequence](pos_session_sequence/) | 17.0.1.0.0 | <a href='https://github.com/peluko00'><img src='https://github.com/peluko00.png' width='32' height='32' style='border-radius:50%;' alt='peluko00'/></a> | Generates a sequence of POS sessions
 [pos_user_restriction](pos_user_restriction/) | 17.0.1.0.0 | <a href='https://github.com/eLBati'><img src='https://github.com/eLBati.png' width='32' height='32' style='border-radius:50%;' alt='eLBati'/></a> | Restrict some users to see and use only certain points of sale
 
 [//]: # (end addons)
