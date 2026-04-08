@@ -33,7 +33,7 @@ addon | version | maintainers | summary
 [pos_customer_comment](pos_customer_comment/) | 16.0.1.0.3 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Display Customer comment in the PoS front office and allow to edit and save it by the cashier
 [pos_customer_tree_view_vat](pos_customer_tree_view_vat/) | 16.0.1.0.1 | <a href='https://github.com/mileo'><img src='https://github.com/mileo.png' width='32' height='32' style='border-radius:50%;' alt='mileo'/></a> | Point of Sale: Show VAT number at Customer Tree View
 [pos_daily_sales_reports_category_only](pos_daily_sales_reports_category_only/) | 16.0.1.0.1 |  | Show Sales Reports by Category
-[pos_default_partner](pos_default_partner/) | 16.0.1.0.2 |  | Add a default customer in pos order
+[pos_default_partner](pos_default_partner/) | 16.0.1.0.3 |  | Add a default customer in pos order
 [pos_discount_all](pos_discount_all/) | 16.0.1.0.1 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Display discount amount on PoS cashier screen and print it on ticketcalculated from the difference between a sale with default pricelist
 [pos_edit_order_line](pos_edit_order_line/) | 16.0.1.0.1 |  | POS Edit Order Line
 [pos_escpos_status](pos_escpos_status/) | 16.0.1.0.1 |  | Point of sale: fetch status for 'escpos' driver
@@ -60,7 +60,7 @@ addon | version | maintainers | summary
 [pos_order_to_sale_order_report](pos_order_to_sale_order_report/) | 16.0.1.0.2 |  | Report will be downloaded after the sales order is created.
 [pos_order_to_sale_order_sale_financial_risk](pos_order_to_sale_order_sale_financial_risk/) | 16.0.1.0.1 | <a href='https://github.com/geomer198'><img src='https://github.com/geomer198.png' width='32' height='32' style='border-radius:50%;' alt='geomer198'/></a> <a href='https://github.com/CetmixGitDrone'><img src='https://github.com/CetmixGitDrone.png' width='32' height='32' style='border-radius:50%;' alt='CetmixGitDrone'/></a> | Sale Financial Risk control for Sales Orders created from POS
 [pos_partner_alternative_pricelist_load_background](pos_partner_alternative_pricelist_load_background/) | 16.0.1.0.0 |  | Load partner alternative pricelist in background
-[pos_partner_birthdate](pos_partner_birthdate/) | 16.0.1.0.4 | <a href='https://github.com/ecino'><img src='https://github.com/ecino.png' width='32' height='32' style='border-radius:50%;' alt='ecino'/></a> | Adds the birthdate in the customer screen of POS
+[pos_partner_birthdate](pos_partner_birthdate/) | 16.0.1.0.5 | <a href='https://github.com/ecino'><img src='https://github.com/ecino.png' width='32' height='32' style='border-radius:50%;' alt='ecino'/></a> | Adds the birthdate in the customer screen of POS
 [pos_partner_firstname](pos_partner_firstname/) | 16.0.1.0.6 | <a href='https://github.com/robyf70'><img src='https://github.com/robyf70.png' width='32' height='32' style='border-radius:50%;' alt='robyf70'/></a> | POS Support of partner firstname
 [pos_partner_load_new_data](pos_partner_load_new_data/) | 16.0.1.0.0 | <a href='https://github.com/flaenen'><img src='https://github.com/flaenen.png' width='32' height='32' style='border-radius:50%;' alt='flaenen'/></a> | Load new partner data during a POS sale
 [pos_partner_location_abstract](pos_partner_location_abstract/) | 16.0.1.0.1 |  | POS Partner Location Abstract
@@ -91,11 +91,12 @@ addon | version | maintainers | summary
 [pos_product_quick_info](pos_product_quick_info/) | 16.0.1.0.2 |  | Display product info by one click in Point of Sale
 [pos_receipt_hide_info](pos_receipt_hide_info/) | 16.0.1.0.0 |  | Removes Information from POS receipt.
 [pos_receipt_hide_price](pos_receipt_hide_price/) | 16.0.1.0.0 |  | Add button to remove price from receipt.
-[pos_receipt_replace_user_by_trigram](pos_receipt_replace_user_by_trigram/) | 16.0.1.0.0 |  | Replace User by Trigram in POS receipt.
+[pos_receipt_replace_user_by_trigram](pos_receipt_replace_user_by_trigram/) | 16.0.2.0.0 |  | Replace User by Trigram in POS receipt.
 [pos_receipt_replace_user_by_trigram_hr](pos_receipt_replace_user_by_trigram_hr/) | 16.0.1.0.1 |  | Link module between pos_receipt_replace_user_by_trigram and pos_hr
 [pos_receipt_usability](pos_receipt_usability/) | 16.0.1.0.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Improve receipt screen in the PoS front office
 [pos_receipt_vat_detail](pos_receipt_vat_detail/) | 16.0.1.0.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Add Vat Details on Receipt (base and vat amounts).
 [pos_report_session_summary](pos_report_session_summary/) | 16.0.1.0.0 |  | Adds a Session Summary PDF report on the POS session
+[pos_require_product_quantity](pos_require_product_quantity/) | 16.0.1.0.0 |  | A popup is shown if product quantity is set to 0 for one or more order lines when clicking on "Payment" button.
 [pos_reset_search](pos_reset_search/) | 16.0.1.0.0 | <a href='https://github.com/fkawala'><img src='https://github.com/fkawala.png' width='32' height='32' style='border-radius:50%;' alt='fkawala'/></a> | Point of Sale - Clear product search when user clicks on a product.
 [pos_restaurant_receipt_usability](pos_restaurant_receipt_usability/) | 16.0.1.0.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Improve receipt screen in the PoS Restaurant front office
 [pos_sale_order_print](pos_sale_order_print/) | 16.0.1.0.2 |  | Print multiple sale orders in POS
@@ -104,7 +105,7 @@ addon | version | maintainers | summary
 [pos_session_pay_invoice](pos_session_pay_invoice/) | 16.0.1.0.3 |  | Pay and receive invoices from PoS Session
 [pos_stock_available_online](pos_stock_available_online/) | 16.0.2.0.3 |  | Show the available quantity of products in the Point of Sale
 [pos_supplierinfo_search](pos_supplierinfo_search/) | 16.0.1.0.0 | <a href='https://github.com/eLBati'><img src='https://github.com/eLBati.png' width='32' height='32' style='border-radius:50%;' alt='eLBati'/></a> | Search products by supplier data
-[pos_tare](pos_tare/) | 16.0.1.0.0 | <a href='https://github.com/fkawala'><img src='https://github.com/fkawala.png' width='32' height='32' style='border-radius:50%;' alt='fkawala'/></a> <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Manage Tare in Point Of Sale module
+[pos_tare](pos_tare/) | 16.0.1.1.0 | <a href='https://github.com/fkawala'><img src='https://github.com/fkawala.png' width='32' height='32' style='border-radius:50%;' alt='fkawala'/></a> <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Manage Tare in Point Of Sale module
 [pos_ticket_extra_company_info_l10n_fr](pos_ticket_extra_company_info_l10n_fr/) | 16.0.1.0.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Add siret company infos on the ticket
 [pos_timeout](pos_timeout/) | 16.0.1.0.0 |  | Set the timeout of the point of sale
 [pos_to_weight_by_product_uom](pos_to_weight_by_product_uom/) | 16.0.1.0.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Make 'To Weight' default value depending on product UoM settings
