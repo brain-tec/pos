@@ -1,11 +1,13 @@
 [project]
 name = "odoo-addons-oca-pos"
-version = "17.0.20260223.0"
+version = "17.0.20260407.5"
 dependencies = [
     "odoo-addon-pos_cash_control_extension>=17.0dev,<17.1dev",
     "odoo-addon-pos_cash_move_reason>=17.0dev,<17.1dev",
     "odoo-addon-pos_category_vertical_display>=17.0dev,<17.1dev",
     "odoo-addon-pos_config_phone>=17.0dev,<17.1dev",
+    "odoo-addon-pos_customer_age_warning>=17.0dev,<17.1dev",
+    "odoo-addon-pos_customer_history_color>=17.0dev,<17.1dev",
     "odoo-addon-pos_early_receipt_printing>=17.0dev,<17.1dev",
     "odoo-addon-pos_hide_cost_price_and_margin>=17.0dev,<17.1dev",
     "odoo-addon-pos_lot_barcode>=17.0dev,<17.1dev",
@@ -14,6 +16,8 @@ dependencies = [
     "odoo-addon-pos_open_cashbox_after_payment>=17.0dev,<17.1dev",
     "odoo-addon-pos_order_attachment>=17.0dev,<17.1dev",
     "odoo-addon-pos_order_copy>=17.0dev,<17.1dev",
+    "odoo-addon-pos_order_line_customer_history>=17.0dev,<17.1dev",
+    "odoo-addon-pos_order_line_show_product_info>=17.0dev,<17.1dev",
     "odoo-addon-pos_order_split_invoice>=17.0dev,<17.1dev",
     "odoo-addon-pos_order_to_sale_order>=17.0dev,<17.1dev",
     "odoo-addon-pos_partner_address_required>=17.0dev,<17.1dev",
@@ -27,9 +31,11 @@ dependencies = [
     "odoo-addon-pos_partner_vat_valid>=17.0dev,<17.1dev",
     "odoo-addon-pos_payment_method_cashdro>=17.0dev,<17.1dev",
     "odoo-addon-pos_product_expiry>=17.0dev,<17.1dev",
+    "odoo-addon-pos_product_info_location>=17.0dev,<17.1dev",
     "odoo-addon-pos_product_template>=17.0dev,<17.1dev",
     "odoo-addon-pos_session_sequence>=17.0dev,<17.1dev",
     "odoo-addon-pos_stock_available_online>=17.0dev,<17.1dev",
+    "odoo-addon-pos_user_restrict_stripe_bypass_user>=17.0dev,<17.1dev",
     "odoo-addon-pos_user_restriction>=17.0dev,<17.1dev",
 ]
 classifiers=[
