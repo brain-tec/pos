@@ -26,6 +26,7 @@ addon | version | maintainers | summary
 [pos_auto_invoice](pos_auto_invoice/) | 16.0.1.0.0 |  | Allow to set POS orders as to-invoice by default
 [pos_bypass_global_discount](pos_bypass_global_discount/) | 16.0.1.0.1 |  | POS Bypass Global Discount
 [pos_cash_control_override](pos_cash_control_override/) | 16.0.1.0.0 |  | Override bare PoS user cash control restrictions
+[pos_cash_move_reason](pos_cash_move_reason/) | 16.0.1.0.0 |  | POS cash in-out reason
 [pos_cashback](pos_cashback/) | 16.0.1.0.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Point of Sale - Cashback
 [pos_category_complete_name](pos_category_complete_name/) | 16.0.1.0.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Adds the complete name field on the pos category field.
 [pos_config_logo](pos_config_logo/) | 16.0.1.0.0 |  | Set logotypes different from the company's one
@@ -77,7 +78,7 @@ addon | version | maintainers | summary
 [pos_payment_terminal](pos_payment_terminal/) | 16.0.1.0.3 |  | Point of sale: support generic payment terminal
 [pos_payment_usability](pos_payment_usability/) | 16.0.1.0.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Improve payment screen in the PoS front office
 [pos_picking_delayed](pos_picking_delayed/) | 16.0.1.0.1 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Delay the creation of the picking when PoS order is created
-[pos_picking_load](pos_picking_load/) | 16.0.1.0.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Load and confirm stock pickings via Point Of Sale
+[pos_picking_load](pos_picking_load/) | 16.0.1.1.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Load and confirm stock pickings via Point Of Sale
 [pos_place](pos_place/) | 16.0.1.0.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Define places on PoS orders
 [pos_price_to_weight](pos_price_to_weight/) | 16.0.1.1.0 |  | Compute weight based on barcodes with prices
 [pos_pricelist_technical](pos_pricelist_technical/) | 16.0.1.0.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Prevent technical pricelists from being displayed in the Point of Sale front-end UI
