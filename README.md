@@ -22,6 +22,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[pos_barcode_block](pos_barcode_block/) | 18.0.1.0.0 | <a href='https://github.com/miquelpascual'><img src='https://github.com/miquelpascual.png' width='32' height='32' style='border-radius:50%;' alt='miquelpascual'/></a> | Block the POS when an unknown barcode is scanned
 [pos_barcode_rule_priced_with_change_rate](pos_barcode_rule_priced_with_change_rate/) | 18.0.1.0.0 |  | Add a barcode rule to be able to scan a barcode with price encoded (as the standard "Priced Product" rule), and convert the price according to a given change rate.
 [pos_blind_session_closing](pos_blind_session_closing/) | 18.0.1.0.0 | <a href='https://github.com/BernatObrador'><img src='https://github.com/BernatObrador.png' width='32' height='32' style='border-radius:50%;' alt='BernatObrador'/></a> | Hide cash control details in the closing popup
 [pos_cash_control_extension](pos_cash_control_extension/) | 18.0.1.0.0 | <a href='https://github.com/peluko00'><img src='https://github.com/peluko00.png' width='32' height='32' style='border-radius:50%;' alt='peluko00'/></a> | This module extends the cash in/out control
@@ -32,7 +33,7 @@ addon | version | maintainers | summary
 [pos_divide_order_summary](pos_divide_order_summary/) | 18.0.1.0.1 | <a href='https://github.com/henrybackman'><img src='https://github.com/henrybackman.png' width='32' height='32' style='border-radius:50%;' alt='henrybackman'/></a> | POS - Divider order summary
 [pos_early_receipt_printing](pos_early_receipt_printing/) | 18.0.1.0.0 |  | Generate bill from Shop
 [pos_edit_order_line](pos_edit_order_line/) | 18.0.1.0.0 |  | POS Edit Order Line
-[pos_full_refund](pos_full_refund/) | 18.0.1.0.0 | <a href='https://github.com/LorenzoC0'><img src='https://github.com/LorenzoC0.png' width='32' height='32' style='border-radius:50%;' alt='LorenzoC0'/></a> | Add button to easily perform full refunds in Point of Sale
+[pos_full_refund](pos_full_refund/) | 18.0.1.0.1 | <a href='https://github.com/LorenzoC0'><img src='https://github.com/LorenzoC0.png' width='32' height='32' style='border-radius:50%;' alt='LorenzoC0'/></a> | Add button to easily perform full refunds in Point of Sale
 [pos_lot_barcode](pos_lot_barcode/) | 18.0.1.0.1 |  | Scan barcode to enter lot/serial numbers
 [pos_margin](pos_margin/) | 18.0.1.1.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Margin on PoS Order
 [pos_order_remove_line](pos_order_remove_line/) | 18.0.1.0.1 | <a href='https://github.com/robyf70'><img src='https://github.com/robyf70.png' width='32' height='32' style='border-radius:50%;' alt='robyf70'/></a> | Add button to remove POS order line.
